@@ -1,14 +1,14 @@
 {
   "id": "jiuli.app.sub",
-  "name": "jiuli 中青应用订阅",
-  "author": "@jiuli",
+  "name": "中青应用订阅",
+  "author": "@jimi",
   "icon": "",
   "repo": "https://github.com/jiuli12/Script",
   "apps": [{
     "id": "youthQD",
     "name": "中青多账号签到+转盘抽奖",
     "keys": ["youthheader_zq", "read_zq", "red_zq", "readtime_zq","youthheader_zq2", "read_zq2", "red_zq2", "readtime_zq2","youthheader_zq3", "read_zq3", "red_zq3", "readtime_zq3","youthheader_zq4", "read_zq4", "red_zq4", "readtime_zq4","youthheader_zq5", "read_zq5", "red_zq5", "readtime_zq5"],
-    "author": "@jiuli",
+    "author": "@jimi",
     "settings": [
       {
         "id": "zqSuffix",
