@@ -78,20 +78,6 @@ let scoreNum= 0;
 if ($.isNode()) {
 	if (process.env.COOKIES_SPLIT) {
 		COOKIES_SPLIT = process.env.COOKIES_SPLIT;
-		}
-	
-	if (process.env.YOUTH_HEADER &&process.env.YOUTH_HEADER.indexOf(COOKIES_SPLIT) > -1) {
-	    CookieYouth = process.env.YOUTH_HEADER.split(COOKIES_SPLIT);
-	} else {
-	    CookieYouth = process.env.YOUTH_HEADER.split();
-	}
-	}
-	
-	if (process.env.YOUTH_HEADER &&process.env.YOUTH_HEADER.indexOf(COOKIES_SPLIT) > -1) {
-	    CookieYouth = process.env.YOUTH_HEADER.split(COOKIES_SPLIT);
-	} else {
-	    CookieYouth = process.env.YOUTH_HEADER.split();
-	}
 	}
 	
 	if (process.env.YOUTH_HEADER &&process.env.YOUTH_HEADER.indexOf(COOKIES_SPLIT) > -1) {
@@ -133,16 +119,6 @@ if ($.isNode()) {
     Object.keys(REDBODYs).forEach((item) => {
         if (REDBODYs[item]) {
           redpArr.push(REDBODYs[item])
-		   }
-      })
-    Object.keys(READTIME).forEach((item) => {
-        if (READTIME[item]) {
-          timeArr.push(READTIME[item])
-		   }
-      })
-    Object.keys(READTIME).forEach((item) => {
-        if (READTIME[item]) {
-          timeArr.push(READTIME[item])
         }
       })
     Object.keys(READTIME).forEach((item) => {
